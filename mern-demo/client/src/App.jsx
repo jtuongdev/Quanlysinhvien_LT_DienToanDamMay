@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // Dùng đường dẫn tương đối - sẽ qua proxy của Vite
-const API_URL = '/api/students';
+const API_URL = "https://symmetrical-space-disco-77pxwq6q5xqfxr5-5000.app.github.dev/api/students";
 
 function App() {
   const [students, setStudents] = useState([]);
@@ -102,7 +102,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>📚 Quản lý Sinh viên</h1>
+      <h1> Manga studient</h1>
       
       <form onSubmit={handleSubmit} className="student-form">
         <input
